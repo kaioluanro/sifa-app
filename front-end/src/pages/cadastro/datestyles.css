@@ -1,0 +1,18 @@
+.datepicker{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+  width: auto;
+}
+
+#selectPicker{
+  color: #909090;
+  background-color: #222427;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.selectPicker2{
+  margin-left: 3%;
+}

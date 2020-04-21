@@ -1,0 +1,254 @@
+#dashboard{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.corpo-dash{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.bg-dash{
+  background-color: rgb(173, 184, 187);
+  /* background-image: url('../../assets/background/Grupo_93.svg'); */
+  background-repeat: no-repeat;
+  backdrop-filter:blur(2px);
+  /* backdrop-filter: contrast(20%); */
+  width: 90%;
+  height: 920px;
+  min-height: 920px;
+  margin: 0px;
+  border-radius: 30px;
+  position:absolute;
+  z-index: 0;
+  opacity: 0.8;
+  box-shadow: 0 3px 20px #222627;
+}
+
+.corpo-fundo{
+  width: 90%;
+  margin: 20px;
+  border: none;
+  border-radius: 30px;
+  height: 920px;
+  z-index: 5;
+}
+
+.header-dash{
+  margin: 0 2% 0 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-dash .logo{
+  width: 73px;
+  margin: -0.5% 0 0 0;
+  
+}
+
+.header-dash button{
+  width: 17%;
+  height: 50px;
+  margin: 1% 30px 30px 30px;
+  border: none;
+  border-radius: 18px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #EBEBEB;
+  background-color: #222627;
+}
+
+.header-dash button:active{
+  opacity: 0.7;
+}
+
+.header-dash a{
+  width: 17%;
+  height: 50px;
+  margin: 1% 30px 30px 30px;
+  border: none;
+  border-radius: 18px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #EBEBEB;
+  background-color: #222627;
+}
+
+.header-dash a:active{
+  opacity: 0.7;
+}
+
+
+.cadastro-button{
+  width: 17%;
+  height: 50px;
+  margin: 1% 30px 30px 30px;
+  border: none;
+  border-radius: 18px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #EBEBEB;
+  background-color: #222627;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cadastro-button:active{
+  opacity: 0.7;
+}
+
+.header-dash .download{
+  width: 50px;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-dash .logout{
+  width: 50px;
+  border-radius: 2em;
+  margin-left: -3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout img{
+  margin-left: 5px;
+}
+
+.header-dash input{
+  width: 50%px;
+  height: 13px;
+  margin-top:0.7%;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+.header-dash input[type=text]{
+  background-image: url('../../assets/icons/search-black-18dp.svg');
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+.linha-dash{
+  height: 2px;
+  background-color: #DDD;
+  box-shadow: 0 0 15px #FFF;
+}
+
+.corpo-conteudo-dash{
+margin-right: 25px;
+margin-top: 21px;
+min-width: 1000px;
+height: 800px;
+overflow-y:scroll;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.corCirculo{
+  width: 100%;
+  height: 16px;
+  border-radius: 20px 20px 0 0;
+}
+
+.perfil{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap:80px;
+  grid-row-gap: 22px;
+  margin-top: 20px;
+}
+
+.perfil-conteudo{
+  background-color: #222627;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:500px;
+  box-shadow: 0 3px 20px #222627;
+}
+
+.perfil-conteudo2{
+  background-color: #222627;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil-conteudo-dados{
+  width: 300px;
+  margin-right: -90px;
+}
+
+.perfil-conteudo-dados ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.perfil-conteudo-dados ul strong{
+  font-weight: 500;
+  color: #909090;
+}
+
+.valores{
+  font-size: 20px;
+}
+
+.perfil-conteudo-dados button{
+  height: 25px;
+  border: none;
+  background-color: rgba(235, 235, 235, 0);
+}
+
+.perfil-conteudo-dados button:active{
+  opacity: 0.7;
+}
+
+.foto-conteudo{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-left: -80px;
+}
+
+.foto{
+  width: 150px;
+  height: 150px;
+  border-radius: 10em;
+  border: 3px solid #909090;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto img{
+  width: 147px;
+  height: 147px;
+  border-radius: 1000em;
+}
+

@@ -1,0 +1,82 @@
+.popup{
+  position: absolute;
+  z-index: 10;
+  background-color: #222427dc;
+  width: 370px;
+  min-height: 500px;
+  max-height: 75%;
+  margin-top: 10px;
+  color: #909090;
+  font-weight: 200;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px #222427;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.corpo-popup{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #222427;
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.popup .orientacao-conteudo-popup{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.corCirculo-popup{
+  width: 340px;
+  height: 10px;
+  margin-top:-12px;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  border-radius: 15px 15px 0 0;
+  
+}
+
+.foto-popup {
+  border:2px solid #909090;
+  width: 50px;
+  height: 50px;
+  border-radius: 20em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-popup img{
+  width: 46px;
+  border-radius: 1000em;
+
+}
+
+.dadosNiver{
+  width: 50%;
+  font-size: 10px;
+  display:flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.circulo-popup{
+  margin-top: 15px;
+}
+
+.nome-popup{
+  font-weight: 900;
+  font-size: 11px;
+}
+
+.bolo{
+  background-image: url('../../assets/icons/birthday-cake.svg');
+  width:60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: 50px;
+}

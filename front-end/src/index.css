@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-position-x: -245px;
+  background-position-y: -300px;
+  background-size:auto;
+  background-repeat: no-repeat;
+  background-image: url('./assets/background/Grupo_93.svg');
+  font-family: -apple-system,BebasNeue-Regular, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  src:url('./assets/font/BebasNeue-Regular.ttf');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
